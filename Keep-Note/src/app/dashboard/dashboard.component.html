@@ -1,9 +1,20 @@
 <main id="main"> 
 
     <br>
-    <div class="searchDiv">
-        <input type="text" placeholder="note title" [(ngModel)]="searchText">
-        <button (click)="searchNote()">Search</button>
+
+    <div class="boxContainer">
+        <table class="elementsCon">
+            <tr>
+                <td>
+                    <input  class = "search" type="text" placeholder="Search" [(ngModel)]="searchText">
+                </td>
+                <td>
+                    <a href="#"><i class= "material-icons" (click)="searchNote()">Search</i></a>
+                </td>
+            </tr>
+        </table>
+       
+       
     </div><br><br><br>
 
     <div class="row" >
