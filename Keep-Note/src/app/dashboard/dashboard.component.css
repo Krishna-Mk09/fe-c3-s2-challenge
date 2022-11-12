@@ -1,0 +1,23 @@
+#main{
+    height: 800px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-column-gap:2em;
+    
+}
+.searchDiv{
+    display: flex;
+    justify-content: center;
+}
+.article{
+   border: 1px solid aqua;
+   border-radius: 6px;
+   box-shadow: 2px 2px 2px aquamarine;
+   margin: 2em; 
+}
+p,h3{
+    display: flex;
+    justify-content: center;
+}

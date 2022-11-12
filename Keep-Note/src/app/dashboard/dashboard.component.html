@@ -1,0 +1,19 @@
+<main id="main"> 
+
+    <br>
+    <div class="searchDiv">
+        <input type="text" placeholder="note title" [(ngModel)]="searchText">
+        <button (click)="searchNote()">Search</button>
+    </div><br><br><br>
+
+    <div class="row" >
+        <article class="article" *ngFor="let i of noteList">
+
+            <h3>{{i.title}}</h3>
+            <p>{{i.content}}</p>
+
+        </article> 
+        
+    </div>
+
+</main>
